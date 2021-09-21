@@ -10,6 +10,7 @@
     <title>Intuit Accounts - Sign Up</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon-128.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -18,13 +19,57 @@
         Already have an Intuit account?<br />
         <a href="">I forgot my User ID or Password</a>
       </p>
-      <button>Sign Up</button>
+      <button>Sign In</button>
     </nav>
     <main>
-      <div>
-        <form action="submit"></form>
+      <div class="form-container">
+        <h2>Create an Intuit account</h2>
+        <h3>
+          One account for everything Intuit, including Mint.<br />
+          <a href="">Learn More</a>
+        </h3>
+        <form action="submit">
+          <label>
+            Email address
+            <input type="email" required />
+          </label>
+          <label>
+            Phone(recommended)
+            <input type="tel" />
+          </label>
+          <label>
+            Password
+            <input type="password" required />
+          </label>
+          <button type="submit">Create Account</button>
+          <p>
+            By selecting Create Account, you agree to our
+            <a href="https://www.mint.com/terms">Terms</a> and have read and
+            acknowledge our
+            <a href="https://www.intuit.com/privacy/statement/"
+              >Global Privacy Statement.</a
+            >
+          </p>
+        </form>
+        <div class="form-captcha">
+          Invisible reCAPTCHA by Google
+          <a href="https://www.google.com/intl/en/policies/privacy/"
+            >Privacy Policy</a
+          >
+          and
+          <a href="https://www.google.com/intl/en/policies/terms/"
+            >Terms of Use.</a
+          >
+        </div>
       </div>
     </main>
+    <div>
+      <ul>
+        <li><a href="https://www.intuit.com/legal/">Legal</a></li>
+        <li><a href="https://www.intuit.com/privacy/statement/">Privacy</a></li>
+        <li><a href="http://security.intuit.com/">Security</a></li>
+      </ul>
+    </div>
 
     <footer>
       <a href="">Privacy Settings</a>
