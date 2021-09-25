@@ -1,10 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  background: #eceef1;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #38a5eb;
+}
+
+button {
+  background-color: #2b78c5;
+  color: #ffffff;
 }
 
 /* Nav */
@@ -23,9 +39,14 @@ nav button {
 }
 
 /* Form */
+main {
+  min-height: 100vh;
+}
 .form-container {
   margin: 5rem auto;
   width: 40rem;
+  background-color: #ffffff;
+  border: solid 1px #c7c7c7;
 }
 
 label {
@@ -33,6 +54,8 @@ label {
 }
 input {
   display: block;
+  width: 80%;
+  margin: 1rem auto;
 }
 
 ul {
@@ -43,4 +66,19 @@ ul {
 
 li {
   margin: 0 1rem;
+}
+
+/* Footer */
+
+footer {
+  justify-self: end;
+  height: 6rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a {
+  margin: 3rem;
 }
