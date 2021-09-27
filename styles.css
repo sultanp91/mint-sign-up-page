@@ -77,14 +77,52 @@ main {
   font-weight: 400;
 }
 
+.form-subtitle {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+  color: #393a3d;
+}
+
+.form-subtitle a {
+  color: #0077c5;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
 label {
   display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 input {
+  width: 100%;
   display: block;
-  width: 80%;
   margin: 1rem auto;
 }
+
+.form-container button {
+  font-size: 1.6rem;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-terms {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-style: italic;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Legal info */
 
 ul {
   display: flex;
