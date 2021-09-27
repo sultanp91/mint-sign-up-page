@@ -42,6 +42,19 @@ nav button {
   border: none;
   border-radius: 2px;
 }
+nav p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.sign-in-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in-button span {
+  margin-right: 1rem;
+}
 
 /* Form */
 main {
@@ -81,6 +94,19 @@ ul {
 
 li {
   margin: 0 1rem;
+}
+
+.legal-info p {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.legal-info a {
+  color: #505050;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 /* Footer */
