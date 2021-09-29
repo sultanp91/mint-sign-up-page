@@ -62,7 +62,7 @@ main {
 }
 .form-container {
   margin: 5rem auto;
-  width: 40rem;
+  width: 38rem;
   background-color: #ffffff;
   border: solid 1px #c7c7c7;
   border-radius: 2px;
@@ -98,6 +98,20 @@ main {
 
 label {
   display: block;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #404040;
+  font-weight: 400;
+}
+#recommended {
+  font-weight: 300;
+}
+
+.form-telephone-details {
+  font-size: 1rem;
+  line-height: 1.5rem;
   width: 80%;
   margin: 0 auto;
 }
@@ -109,9 +123,14 @@ input {
 
 .form-container button {
   font-size: 1.6rem;
-  display: block;
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
 }
 
 .form-terms {
