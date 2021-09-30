@@ -78,7 +78,7 @@ main {
 }
 
 .form-subtitle {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   font-size: 1.4rem;
   line-height: 1.7rem;
@@ -94,6 +94,7 @@ main {
   text-decoration: none;
   display: block;
   text-align: center;
+  padding: 0.2rem;
 }
 
 label {
@@ -119,6 +120,7 @@ input {
   width: 100%;
   display: block;
   margin: 1rem auto;
+  padding: 0.7rem;
 }
 
 .form-container button {
@@ -140,6 +142,17 @@ input {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.form-captcha {
+  background: #eceef1;
+  text-align: center;
+  padding: 2rem;
+}
+
+.form-captcha p {
+  color: #8d9096;
+  font-size: 1rem;
 }
 /* Legal info */
 
