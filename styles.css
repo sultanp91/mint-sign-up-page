@@ -70,7 +70,7 @@ main {
 
 .form-container h2 {
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem;
   font-size: 2.4rem;
   line-height: 2.6rem;
   color: #393a3d;
@@ -113,13 +113,13 @@ label {
 .form-telephone-details {
   font-size: 1rem;
   line-height: 1.5rem;
-  width: 80%;
-  margin: 0 auto;
+  width: 85%;
+  margin: -0.5rem auto 2.2rem;
 }
 input {
   width: 100%;
   display: block;
-  margin: 1rem auto;
+  margin: 0.5rem auto 2rem;
   padding: 0.7rem;
 }
 
@@ -130,7 +130,7 @@ input {
   align-items: center;
   width: 85%;
   margin: 1.5rem auto;
-  padding: 0.5rem;
+  padding: 0.8rem;
   border: none;
   border-radius: 3px;
 }
@@ -142,12 +142,14 @@ input {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  color: #757575;
+  padding: 1.5rem 0 2.5rem;
 }
 
 .form-captcha {
   background: #eceef1;
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .form-captcha p {
@@ -171,6 +173,7 @@ li {
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.8rem;
+  color: #505050;
 }
 
 .legal-info a {
